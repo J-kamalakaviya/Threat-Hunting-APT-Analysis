@@ -1,0 +1,11 @@
+index=main
+| stats count by user
+
+index=main status=failed
+| stats count by ip
+
+index=main
+| timechart count
+
+index=main
+| stats count by action

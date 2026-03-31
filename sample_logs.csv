@@ -1,0 +1,5 @@
+timestamp,user,ip,action,status
+2026-03-01 10:00,admin,192.168.1.1,login,failed
+2026-03-01 10:02,admin,192.168.1.1,login,failed
+2026-03-01 10:05,user1,192.168.1.2,login,success
+2026-03-01 10:06,admin,192.168.1.1,login,failed
